@@ -1,0 +1,31 @@
+.sidebarleft,
+.sidebarright {
+  position: fixed;
+  top: 60px;
+  width: 170px;
+  height: 100vh;
+  background-color: #82bdc9;
+  padding: 20px;
+}
+.sidebarright {
+  right: 0;
+  
+}
+.sidebarleft {
+  left: 0;
+ 
+}
+@media (max-width: 768px) {
+  .sidebarleft,
+  .sidebarright {
+ position:relative;
+ width: 100%;
+ height: auto;
+ padding: 10px;
+ top:auto;
+ left: auto;
+ right: auto;
+  }
+ 
+}
+

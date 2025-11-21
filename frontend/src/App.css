@@ -1,0 +1,7 @@
+.App {
+  background-image: url("src/assets/OIP-_5_.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment:fixed;
+}

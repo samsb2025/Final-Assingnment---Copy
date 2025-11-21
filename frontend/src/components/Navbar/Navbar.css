@@ -1,0 +1,31 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #aeced6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #322aa7;
+}
+.button {
+  padding: 8px 14px;
+  background-color: #b03b3b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+}
+.links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+}

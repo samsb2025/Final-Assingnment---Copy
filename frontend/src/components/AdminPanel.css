@@ -1,0 +1,92 @@
+.admin-panel {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #d0a1a1;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+.admin-panel h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  border-bottom: 2px solid #e29b4a;
+  padding-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fdfdfd;
+}
+
+thead {
+  background-color: #4a90e2;
+  color: white;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+}
+
+button {
+  padding: 8px 14px;
+  background-color: #b03b3b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .admin-panel {
+    padding: 15px;
+  }
+
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  tr {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eee;
+  }
+
+  th {
+    display: none;
+  }
+
+  td {
+    padding: 10px;
+    text-align: right;
+    position: relative;
+  }
+
+  td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #333;
+  }
+}
+.promote-btn {
+  padding: 8px 14px;
+  background-color: #3bb043;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+}

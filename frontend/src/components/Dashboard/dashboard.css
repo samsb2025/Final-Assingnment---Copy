@@ -1,0 +1,96 @@
+.dashboard {
+  padding: 20px;
+  background-color: #decaca;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 29px auto;
+  width: 90%;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.dashboard p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.dashboard button {
+  font-size: 12px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+  .dashboard {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+
+    padding: 10px;
+    overflow: auto;
+  }
+
+  .dashboard h1 {
+    font-size: 20px;
+  }
+
+  .dashboard p {
+    font-size: 14px;
+  }
+
+  .dashboard button {
+    font-size: 10px;
+    padding: 8px 16px;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .dashboard {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .dashboard h1 {
+    font-size: 22px;
+  }
+
+  .dashboard p {
+    font-size: 16px;
+  }
+  .dashboard button {
+    font-size: 10px;
+    padding: 10px 20px;
+  }
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.button {
+  padding: 8px 14px;
+  background-color: #b03b3b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+}

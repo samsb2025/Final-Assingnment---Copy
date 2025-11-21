@@ -1,0 +1,18 @@
+.home {
+  text-align: left;
+  position: fixed;
+  left: 30px;
+  top: 30px;
+  font-size: 2em;
+  font-weight: bold;
+  color: #380d0d;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(79, 51, 51);
+  text-align: center;
+  padding: 10px;
+}
